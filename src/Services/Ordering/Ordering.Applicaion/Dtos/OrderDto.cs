@@ -13,10 +13,10 @@ namespace Ordering.Applicaion.Dtos
         Guid CustomerId,
         string OrderName,
         AddressDto ShippingAddress,
-        AddressDto BilldingAddress,
-        PaymentDto payment,
+        AddressDto BillingAddress,
+        PaymentDto Payment,
         OrderStatus Status,
-        List<OrderItemDto> OrderItem
+        List<OrderItemDto> OrderItems
 
     );
 }
